@@ -50,18 +50,17 @@ print(f"Found {len(valid_urls)} companies with valid URLs (limited to first 2)")
 service = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service)
 
-# List to store scraped data
 scraped_data = []
 
 try:
     for index, row in valid_urls.iterrows():
         print(f"\nProcessing: {row['Title']}")
-        
+
         try:
             # Open URL
             driver.get(row['url'])
             time.sleep(3)  # Wait for page to load
-            
+
             page_text = driver.find_element(By.TAG_NAME, "body").text
 
             # Helper to extract section by keyword
@@ -119,15 +118,25 @@ try:
             if not transactions_text:
                 transactions_text = "Transactions not found"
 
+            # --- Scrape URL from .u-link ---
+            page_url = None
+            try:
+                link_elem = driver.find_element(By.CSS_SELECTOR, "a.u-link")
+                page_url = link_elem.get_attribute("href")
+                print(f"✓ Found page URL from .u-link: {page_url}")
+            except:
+                page_url = "URL not found in .u-link"
+
             # Store the data
             scraped_data.append({
                 'Title': row['Title'],
                 'Overview': overview_text,
                 'Location': location_text,
-                'Transaction': transactions_text,
-                'URL': row['url']
+                'URL': page_url,
+                'Transactions': transactions_text
+                
             })
-            
+
             print(f"✓ Scraped: {row['Title']}")
 
         except Exception as e:
@@ -137,7 +146,7 @@ try:
                 'Overview': f"Error: {str(e)}",
                 'Location': "Error",
                 'Transaction': "Error",
-                'URL': row['url']
+                'URL': "Error"
             })
 
         time.sleep(2)
@@ -149,11 +158,10 @@ finally:
     # Save to TXT file
     with open("scraped_data.txt", "w", encoding="utf-8") as f:
         for data in scraped_data:
-            f.write(f"Title: {data['Title']}\n")
             f.write(f"Overview: {data['Overview']}\n")
             f.write(f"Location: {data['Location']}\n")
-            f.write(f"Transaction: {data['Transaction']}\n")
             f.write(f"URL: {data['URL']}\n")
+            f.write(f"Transactions: {data['Transactions']}\n")
             f.write("\n")  # blank line between companies
 
     print(f"Results saved to 'scraped_data.txt'")
