@@ -1,10 +1,36 @@
-Overview: Baymark Partners is a Dallas-based private equity firm investing in growing middle market IT, healthcare, business and distribution services, as well as lite manufacturing providing owners with liquidity and companies with resources to accelerate their growth. The professionals at Baymark Partners possess over 100 years of successful experience in acquiring, investing and operating growth companies. Their experience ranges fro... Show full description
-Location: HQ 5700 Granite Parkway Suite 435
+Title: Baymark Partners
+Overview: Baymark Partners is a Dallas-based private equity firm investing in growing middle market IT, healthcare, business and distribution services, as well as lite manufacturing providing owners with liquidity and companies with resources to accelerate their growth.
+Location: HQ 5700 Granite Parkway Suite 435 Plano, TX 75024
 URL: https://www.baymarkpartners.com/
-Transactions: Baymark Partners ACQUIRED Anonymous
+--- Transactions ---
+  Transaction 1:
+    Acquirer/Investor: Baymark Partners
+    Activity: ACQUIRED
+    Company: Anonymous
+    Industry: Computer and Technology Distributor or Wholesaler, IT Services
+    Date: June 2025
+  Transaction 2:
+    Acquirer/Investor: Baymark Partners
+    Activity: ACQUIRED
+    Company: Theut Company LLC
+    Industry: Fabricated Metal Product Manufacturing, Machine Shops; Turned Product; and Screw, Nut, and Bolt Manufacturing, Architectural and Structural Metals Manufacturing, Adhesive Manufacturing, Other Concrete Product Manufacturing, Glass Container Manufacturing, Door locks, metal, manufacturing, Metal Can, Box, and Other Metal Container (Light Gauge) Manufacturing, Prefabricated Wood Building Manufacturing, Other Millwork (including Flooring), Wood Window and Door Manufacturing, Ice chests or coolers, urethane or other plastics foam (except polystyrene) manufacturing, Gypsum building products manufacturing, Roofing tile, concrete, manufacturing, Doors, unframed glass, made from purchased glass, Tile, roofing and drain, clay, manufacturing, Roofing tile, clay, manufacturing, Ceramic tiles, floor and wall, manufacturing, Prefabricated Metal Building and Component Manufacturing, Asphalt roofing construction machinery manufacturing, Ceiling lumber, dressed, resawing purchased lumber, Tar paper, building and roofing, made in paper mills, Roofing (i.e., single ply rubber membrane) manufacturing, Utility containers (e.g., baskets, bins, boxes, buckets, dishpans, pails), plastics (except foam), manufacturing, Trash containers, plastics, manufacturing, Building materials (e.g., fascia, panels, siding, soffit), plastics, manufacturing, Coolers or ice chests, plastics (except foam), manufacturing, Building panels, corrugated and flat, plastics, manufacturing, Doors and door frames, plastics, manufacturing, Drums, plastics (i.e., containers), manufacturing, Hot tubs, plastics or fiberglass, manufacturing, Laundry tubs, plastics, manufacturing, Dimension stone for buildings manufacturing, Laundry tubs, metal, manufacturing, Chests, fire or burglary resistive, metal, manufacturing, Bank chests, metal, manufacturing, Safe deposit boxes and chests, metal, manufacturing, Roof deck, sheet metal (except stampings), manufacturing, Roofing, sheet metal (except stampings), manufacturing
+    Date: August 2023
 
-Overview: We are a Nashville-based private equity firm, founded by operators and engineers, investing in manufacturing companies in the U.S. and Canada. We work with existing management teams to develop world-class operations and targeted growth, driving long-term value for management, employees, and our investors. INDUSTRIES Manufacturing (15)
-Location: HQ 1312 Third Ave N Nashville, TN
+Title: LFM Capital
+Overview: Overview not found
+Location: HQ 1312 Third Ave N Nashville, TN 37208
 URL: https://www.lfmcapital.com/
-Transactions: LFM Capital ACQUIRED Current Tools
+--- Transactions ---
+  Transaction 1:
+    Acquirer/Investor: LFM Capital
+    Activity: ACQUIRED
+    Company: Current Tools
+    Industry: Fabricated Metal Product Manufacturing, Construction and Mining (except Oil Well) Machinery and Equipment Distributors (Wholesalers)
+    Date: November 2023
+  Transaction 2:
+    Acquirer/Investor: LFM Capital
+    Activity: ACQUIRED
+    Company: SisTech Manufacturing
+    Industry: Electronic and Communications Manufacturing, Electrical Equipment, Appliance, and Component Manufacturing, Motorcycle, Bicycle, and Parts Manufacturing
+    Date: September 2023
 
